@@ -1,0 +1,22 @@
+# Virtual env
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Env
+.env
+
+# IDE
+.idea/
+.vscode/
+
+# Raw training videos
+dataset/raw_videos/
+
+# Logs/temp
+*.log
+*.tmp

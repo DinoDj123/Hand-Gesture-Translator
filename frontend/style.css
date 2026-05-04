@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: #f4f6f8;
+    color: #222;
+}
+
+video {
+    width: 480px;
+    max-width: 90vw;
+    margin-top: 20px;
+    border-radius: 12px;
+    transform: scaleX(-1);
+    background: #000;
+}
+
+button {
+    padding: 10px 16px;
+    margin: 8px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    background: #2563eb;
+    color: white;
+    font-size: 15px;
+}
+
+button:hover {
+    background: #1d4ed8;
+}
+
+#result {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 16px;
+}
+
+#status {
+    color: #555;
+}
