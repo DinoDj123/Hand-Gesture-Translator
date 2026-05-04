@@ -6,6 +6,10 @@ const video = document.querySelector("video");
 const status = document.getElementById("status");
 const result = document.getElementById("result");
 
+
+
+const API_URL = "https://hand-gesture-translator-production.up.railway.app";
+
 const constraints = {
     video: true,
     audio: false
@@ -51,7 +55,7 @@ predictButton.addEventListener("click", async () => {
     formData.append("file", recordedBlob, "gesture.webm");
 
     try {
-        const response = await fetch("http://localhost:8000/predict/", {
+        const response = await fetch(`${API_URL}/predict/`, {
             method: "POST",
             body: formData
         });
